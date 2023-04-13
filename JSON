@@ -1,0 +1,8 @@
+How to compare Two JSON have the same properties without order :
+
+var student1={name:"k prasanth",age:23};
+var student2={age:23,name:"k prasanth"};
+if(student1.name==student2.name&&student1.age==student2.age){
+  console.log(student1.name,student1.age)
+  console.log(student2.name,student2.age)
+}
